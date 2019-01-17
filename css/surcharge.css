@@ -193,7 +193,7 @@ p.gla-item-author{
 .site-banner{
     background:#ffffff;
     padding: 16px 0;
-    box-shadow: 0px 16px 20px 11px rgba(0,0,0,0.80);
+    box-shadow: 0px -7px 20px 0px rgba(0,0,0,0.80);
     animation: slideDown .3s;
     height : 65px;
 }
@@ -221,4 +221,9 @@ input#filter {
 input#filter::placeholder{
   font-size:12px;
  color:gray;
- } 
+ }
+
+.block.block-page.list-articles img.gla-item-img {
+    max-height: 360px;
+    width: auto;
+}
