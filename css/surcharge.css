@@ -300,9 +300,18 @@ span#filter-count{
     word-wrap: break-word;
     overflow: hidden;
     letter-spacing: 14px;
-    padding-left: 13px;
+    padding-left: 12px;
 }
-
+.block.block-page.list-articles img.gla-item-img:hover {
+    transform: scale(1.05);
+    z-index: 5;
+}
+.gla-item > a:hover .gla-item-title, .gla-item > a:focus .gla-item-title, gla-item > a:focus .gla-item-author {
+    color: #000000;
+}
+.list-articles .gla-item-content:hover {
+    color: inherit !important;
+}
 .site-banner .inside {
     max-width: 1170px;
 }
