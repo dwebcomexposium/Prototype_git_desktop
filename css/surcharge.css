@@ -158,12 +158,23 @@ span.gla-item-tag {
 span.gla-item-tag::first-letter{
     font-size:10px
 }
-span.gla-item-tag.topic_prototype {
+
+
+
+/*************************************/
+/***********STYLE TOPIC***************/
+/*************************************/
+
+span.gla-item-tag.topic_prototype, span.at-theme.topic_prototype {
   background-color:#f8543a;
 }
-span.gla-item-tag.topic_developpement {
+span.gla-item-tag.topic_developpement, span.at-theme.topic_developpement {
   background-color:#45cee3;
 }
+
+/*******************************************/
+/*************END STYLE TOPIC***************/
+/*******************************************/
 
 .gla-item-title {
     border-bottom: 0;
@@ -292,9 +303,4 @@ span.at-theme {
     padding-left: 13px;
 }
 
-span.at-theme.topic_developpement {
-background-color: #f8543a;
-}
-span.at-theme.topic_developpement {
-background-color: #45cee3;
-}
+
