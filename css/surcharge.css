@@ -235,3 +235,40 @@ span#filter-count{
     margin-top: 6px;
 	color:grey;
 }
+
+
+/******* ARTICLES *********/
+
+.article .layout-2-col {
+    width: 100%;
+}
+
+.article img.at-illust {
+    margin: 0 auto;
+    display: block;
+	    box-shadow: 0 2px 30px 0 rgba(0,0,0,.12);
+	    border-radius: 13px;
+}
+.article h1.at-main-title {
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.article p.at-publication {
+    border: 0;
+    text-align: center;
+    margin-top: -17px;
+    color: grey;
+    font-size: 12px;
+}
+
+.article .article-intro {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 11px;
+}
