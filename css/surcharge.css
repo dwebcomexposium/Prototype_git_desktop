@@ -309,8 +309,9 @@ span#filter-count{
 .gla-item > a:hover .gla-item-title, .gla-item > a:focus .gla-item-title, gla-item > a:focus .gla-item-author {
     color: #000000;
 }
-.list-articles .gla-item-content:hover {
-    color: inherit !important;
+
+.list-articles article a:hover p.gla-item-author {
+    color: #000000;
 }
 .site-banner .inside {
     max-width: 1170px;
