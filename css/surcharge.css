@@ -327,6 +327,7 @@ a.go_back_button {
     font-size: 1.5em;
     color: grey;
     margin-bottom: 10px;
+	transition: .5s;
 }
 .block.block-small.global-search-form.js-gsf.cxp-searchform.cxp-searchsuggest {
     right: 0;
@@ -336,6 +337,12 @@ a.go_back_button {
     box-shadow: 0 2px 30px 0 rgba(0,0,0,.12);
     border-radius: 50%;
 }
-.site-banner .gsf-trigger:hover .icon, .site-banner .gsf-trigger:focus .icon {
+.site-banner .gsf-trigger:hover .icon, .site-banner .gsf-trigger:focus .icon, .site-banner .global-search-form.is-visible .gsf-trigger .icon {
     color: grey;
+}
+
+.site-banner .global-search-form.is-visible .gsf-trigger {
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,.12);
 }
