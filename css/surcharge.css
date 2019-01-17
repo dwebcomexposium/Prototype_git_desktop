@@ -285,7 +285,7 @@ span#filter-count{
     padding-top: 11px;
 }
 
-span.at-theme {
+.article span.at-theme{
     margin: 0 auto;
     display: block;
     text-align: center;
