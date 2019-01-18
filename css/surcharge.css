@@ -397,3 +397,8 @@ li.an-item.an-item-previous img.an-item-illust {
     text-align: center;
     margin-right: 34px;
 }
+
+li.an-item.an-item-previous span.an-item-publication, li.an-item.an-item-previous span.an-item-title {
+    text-align: right;
+    display: block;
+}
