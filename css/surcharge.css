@@ -360,3 +360,40 @@ a.go_back_button {
 .article iframe {
     border: none;
 }
+
+
+.an-item a.an-item-link {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px 50px 50px 20px;
+    box-shadow: 0 1px 19px 0 rgba(0,0,0,.05);
+	transition: 0.5s;
+}
+li.an-item.an-item-previous a.an-item-link {
+    border-radius: 50px 20px 20px 50px;
+}
+li.an-item.an-item-previous img.an-item-illust {
+    border-radius: 50% 0% 0% 50%;
+}
+.an-item a.an-item-link:hover {
+    transform: scale(1.005);
+    background-color: #ffffff;
+    color: #000000;
+}
+.an-item span.an-item-publication-author {
+    display: none;
+}
+.an-item img.an-item-illust {
+    width: 100px;
+    height: 100px;
+        border-radius: 0% 50% 50% 0%;
+	    transition: 0.5s;
+	    filter: grayscale(100%);
+}
+.an-item a.an-item-link:hover img.an-item-illust {
+    filter: grayscale(0%);
+}
+.an-item .icon-short-arrow-right:before {
+    text-align: center;
+    margin-right: 34px;
+}
