@@ -1,0 +1,19 @@
+/* CSS Document */
+
+
+/*********************************/
+/*******MEDIA QUERIES************/
+/********************************/
+
+/*************TABLETTE**************/
+
+@media screen and (max-width: 1170px) {
+  .site-banner .inside {
+        padding: 3em 1.5em 1px 1.5em;
+  }
+	.gla-item {
+    max-width: 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+	}
+}
