@@ -6,6 +6,12 @@
 /********************************/
 
 /*************TABLETTE**************/
+@media screen and (max-width: 1170px) {
+  .gla-item-content {
+    padding: 217px 0 0;
+ }
+}
+
 
 @media screen and (max-width: 1170px) {
   .site-banner .inside {
@@ -16,4 +22,7 @@
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
 	}
+	.gla-item-content {
+    padding: 250px 0 0;
+ }
 }

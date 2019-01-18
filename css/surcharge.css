@@ -94,28 +94,28 @@ body{
       text-decoration:none;
       color:#000000;
   }
-  .content-filter li:first-child a span{
+  .content-filter li:nth-child(2) a span{
       background-color:#f8543a;
       padding:3px 6px;
       font-size:10px;
       margin-left:10px;
       color:#ffffff;
   }
-  .content-filter li:nth-child(2) a span{
+  .content-filter li:nth-child(3) a span{
       background-color:#45cee3;
       padding:3px 6px;
       font-size:10px;
       margin-left:10px;
       color:#ffffff;
   }
-  .content-filter li:nth-child(3) a span{
+  .content-filter li:nth-child(4) a span{
       background-color:#93e588;
       padding:3px 6px;
       font-size:10px;
       margin-left:10px;
       color:#ffffff;
   }
-  .content-filter li:nth-child(4) a span{
+  .content-filter li:nth-child(5) a span{
       background-color:#d7e588;
       padding:3px 6px;
       font-size:10px;
