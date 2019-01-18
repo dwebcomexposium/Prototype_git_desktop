@@ -306,7 +306,7 @@ span#filter-count{
     transform: scale(1.05);
     z-index: 5;
 }
-.gla-item > a:hover .gla-item-title, .gla-item > a:focus .gla-item-title, gla-item > a:focus .gla-item-author {
+.gla-item > a:hover .gla-item-title, .gla-item > a:focus .gla-item-title, gla-item > a:focus .gla-item-author, .gla-item > a:hover .gla-item-content, .gla-item > a:focus .gla-item-content {
     color: #000000;
 }
 
