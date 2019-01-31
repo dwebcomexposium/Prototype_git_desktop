@@ -51,14 +51,14 @@
 	article.gla-item{
 		align-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-		box-shadow: 0px 4px 20px -7px grey;
-    border-radius: 5px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+		box-shadow: 0px 4px 20px -7px grey !important;
+    border-radius: 5px !important;
 		background-color: #fff;
-		padding: 0;
+		padding: 0 !important;
 	}
 	.gla-item-content{
-		padding: 250px 15px 0 15px;
+		padding: 250px 15px 0 15px !important;
 	}
 }
