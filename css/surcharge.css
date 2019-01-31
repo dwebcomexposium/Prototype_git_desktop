@@ -359,6 +359,7 @@ a.go_back_button {
 
 .article iframe {
     border: none;
+	min-height: 35em;
 }
 
 
