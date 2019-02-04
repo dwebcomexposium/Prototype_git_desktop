@@ -453,6 +453,6 @@ div#zone4 {
     display: block;
 }
 #back-to-top:hover span {
-    margin-top: 50px;
+    margin-top: -50px;
     transition: 0.5s ease-in-out;
 }
