@@ -54,7 +54,7 @@ body, html{
 .gla-item-tag {
     height: 30px;
     white-space: nowrap;
-    top: 80px;
+    top: 12px;
     left: 50%;
     padding: 0 10px;
     font-size: 14px;
@@ -150,10 +150,10 @@ span.gla-btn-read-more{
 
 span.gla-item-tag {
     white-space: nowrap;
-    width: 30px;
-    border-radius: 50%;
-    font-weight: 400;
-    font-size: 0;
+    width: 50%;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 11px;
 }
 span.gla-item-tag::first-letter{
     font-size:10px
@@ -199,6 +199,7 @@ span.gla-item-tag.topic_innovation, span.at-theme.topic_innovation, span.at-them
     text-align:left;
     background-color:transparent;
     padding-left: 0px;
+margin-top:34px;
 }
 
 p.gla-item-author{
