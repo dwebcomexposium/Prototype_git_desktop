@@ -167,23 +167,15 @@ span.gla-item-tag::first-letter{
 
 span.gla-item-tag.topic_prototype, span.at-theme.topic_prototype, span.at-theme.topic_innovation ul.at-tag.unstyled li {
   background-color:#EBD9E2;
+	color:#C7ACB8;
 }
 span.gla-item-tag.topic_developpement, span.at-theme.topic_developpement, span.at-theme.topic_innovation ul.at-tag.unstyled li {
   background-color:#EFE4C8;
+	color:#C2B190;
 }
 span.gla-item-tag.topic_innovation, span.at-theme.topic_innovation, span.at-theme.topic_innovation ul.at-tag.unstyled li {
   background-color:#EDDAE3;
-}
-
-span.at-theme.topic_innovation ul.at-tag.unstyled li a{
-color:#C1A6B2;
-}
-span.at-theme.topic_prototype ul.at-tag.unstyled li a{
-color:#C7ACB8;
-}
-
-span.at-theme.topic_developpement ul.at-tag.unstyled li a{
-color:#C2B190;
+	color:#C1A6B2;
 }
 
 /*******************************************/
