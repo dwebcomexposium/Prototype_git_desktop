@@ -171,6 +171,10 @@ span.gla-item-tag.topic_prototype, span.at-theme.topic_prototype {
 span.gla-item-tag.topic_developpement, span.at-theme.topic_developpement {
   background-color:#45cee3;
 }
+span.gla-item-tag.topic_innovation, span.at-theme.topic_innovation {
+  background-color:#93E588;
+}
+
 
 /*******************************************/
 /*************END STYLE TOPIC***************/
@@ -300,7 +304,7 @@ span#filter-count{
     word-wrap: break-word;
     overflow: hidden;
     letter-spacing: 14px;
-    padding-left: 12px;
+    padding-left: 15px;
 }
 .block.block-page.list-articles img.gla-item-img:hover {
     transform: scale(1.05);
@@ -455,4 +459,28 @@ div#zone4 {
 #back-to-top:hover span {
     margin-top: -50px;
     transition: 0.5s ease-in-out;
+}
+
+/**************/
+/**** TAGS ****/
+/**************/
+
+ul.at-tag.unstyled li a {
+    text-decoration: none;
+    color: #C1A6B2;
+    font-size: 11px;
+}
+ul.at-tag.unstyled li {
+    border: 0;
+    background-color: #EDDAE3;
+    margin: 0px 5px 0px 5px;
+    display: inline-block;
+    padding: 4px 13px;
+    border-radius: 20px;
+}
+ul.at-tag.unstyled {
+    text-align: center;
+    margin-bottom: 31px;
+    margin-top: 0px;
+    border: 0;
 }
