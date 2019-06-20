@@ -31,7 +31,7 @@ body, html{
     display: flex;
     -ms-flex-align: center;
     align-items: center;
-    padding: 110px 0 109px;
+    padding: 110px 0 20px;
     overflow: hidden;
     text-decoration: none;
     background: transparent !important;
