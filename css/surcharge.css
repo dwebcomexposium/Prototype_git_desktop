@@ -52,13 +52,13 @@ body, html{
 }
 
 .gla-item-tag {
-    height: 30px;
+    height: 23px;
     white-space: nowrap;
     top: 12px;
     left: 50%;
     padding: 0 10px;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 24px;
     letter-spacing: .1em;
     text-transform: uppercase;
     background: #66c0bc;
@@ -150,14 +150,12 @@ span.gla-btn-read-more{
 
 span.gla-item-tag {
     white-space: nowrap;
-    width: 50%;
+    width: 35%;
     border-radius: 20px;
     font-weight: 500;
-    font-size: 11px;
+    font-size: 8px;
 }
-span.gla-item-tag::first-letter{
-    font-size:10px
-}
+
 
 
 
@@ -199,7 +197,7 @@ span.gla-item-tag.topic_innovation, span.at-theme.topic_innovation, span.at-them
     text-align:left;
     background-color:transparent;
     padding-left: 0px;
-margin-top:34px;
+margin-top:40px;
 }
 
 p.gla-item-author{
