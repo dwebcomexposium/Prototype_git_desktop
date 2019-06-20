@@ -242,6 +242,10 @@ input#filter::placeholder{
 .block.block-page.list-articles img.gla-item-img {
     max-height: 360px;
     width: auto;
+	    -webkit-box-shadow: 0px 0px 24px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px -13px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px -14px rgba(0,0,0,0.75);
+    border-radius: 3%;
 }
 span#filter-count{
     font-size: 11px;
