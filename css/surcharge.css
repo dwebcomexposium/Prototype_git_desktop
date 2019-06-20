@@ -511,6 +511,7 @@ ul.at-tag.unstyled {
 /*** ZONE 3 ARTICLES ***/
 /***********************/
 
+
 .popin-right-article {
     position: fixed;
     bottom: 50%;
@@ -520,10 +521,33 @@ ul.at-tag.unstyled {
     border-radius: 8px 0px 0 8px;
     background: rgba(55, 55, 55, .99);
     z-index: 100;
-    transition: background .5s;
-    -webkit-transition: background .5s;
+    transition: height 0s 10000s;
 }
 
+.close-popin-right-article {
+    color: #fff;
+    position: absolute;
+    margin-left: -20px;
+    background: rgba(55, 55, 55, .99);
+    padding: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.popin-right-article:focus {
+    width: 0;
+}
+
+.popin-right-article:focus .close-popin-right-article {
+    transform-origin: 0 0;
+    transform: rotate(180deg);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
 .popin-right-article span {
     color: #ffffff;
     font-weight: 600;
