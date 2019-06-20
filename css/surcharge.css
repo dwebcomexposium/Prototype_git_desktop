@@ -309,20 +309,20 @@ span#filter-count{
 }
 
 .article span.at-theme{
-    margin: 0 auto;
+margin: 0 auto;
     display: block;
     text-align: center;
     margin-left: 50% !important;
     transform: translateX(-50%);
-    font-size: 12px !important;
+    font-size: 11px !important;
     white-space: nowrap !important;
-    width: 32px;
-    border-radius: 50%;
-    margin-top: -15px !important;
+    width: 9%;
+    border-radius: 21px;
+    margin-top: -13px !important;
     text-overflow: ellipsis !important;
     word-wrap: break-word;
     overflow: hidden;
-    letter-spacing: 14px;
+    letter-spacing: 0px;
     padding-left: 15px;
 }
 .block.block-page.list-articles .gla-item a:hover img.gla-item-img {
