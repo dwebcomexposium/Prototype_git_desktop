@@ -325,8 +325,8 @@ span#filter-count{
     letter-spacing: 14px;
     padding-left: 15px;
 }
-.block.block-page.list-articles img.gla-item-img:hover {
-    transform: scale(1.05);
+.block.block-page.list-articles .gla-item a:hover img.gla-item-img {
+    transform: scale(1.01);
     z-index: 5;
 }
 .gla-item > a:hover .gla-item-title, .gla-item > a:focus .gla-item-title, gla-item > a:focus .gla-item-author, .gla-item > a:hover .gla-item-content, .gla-item > a:focus .gla-item-content {
