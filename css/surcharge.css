@@ -210,7 +210,6 @@ p.gla-item-author time.la-item-date {
     padding-left: 16px;
 }
 p.gla-item-author:before {
-    background-color: red;
     -webkit-mask-image: url(/theme/Prototype_git_desktop/img/clock.svg);
     mask-image: url(/theme/Prototype_git_desktop/img/clock.svg);
     content: ' ';
