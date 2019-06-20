@@ -6,7 +6,9 @@ body, html{
     font-family: 'Montserrat', sans-serif;
     font-weight:300;
 }
-
+div#zone2 {
+    width: 100%;
+}
 .site-wrapper.wrapper {
     background-color: #f5f5f5;
     box-shadow: none;
@@ -502,4 +504,36 @@ ul.at-tag.unstyled {
     margin-bottom: 31px;
     margin-top: 0px;
     border: 0;
+}
+
+
+/***********************/
+/*** ZONE 3 ARTICLES ***/
+/***********************/
+
+.popin-right-article {
+    position: fixed;
+    bottom: 50%;
+    transform: translateY(50%);
+    width: 10%;
+    right: 0;
+    border-radius: 8px 0px 0 8px;
+    background: rgba(55, 55, 55, .99);
+    z-index: 100;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+}
+
+.popin-right-article span {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 15px 0px 16px;
+    display: block;
+}
+.popin-right-article p {
+    color: #fff;
+    font-size: 13px;
+    padding: 8px 15px 0px 15px;
 }
