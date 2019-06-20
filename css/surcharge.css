@@ -486,16 +486,16 @@ div#zone4 {
 
 ul.at-tag.unstyled li a {
     text-decoration: none;
-    color: #C1A6B2;
+    color: #c5c5c5;
     font-size: 11px;
 }
 ul.at-tag.unstyled li {
-    border: 0;
-    background-color: #EDDAE3;
+	border:0;
+    border: 1px solid #dedede;
     margin: 0px 5px 0px 5px;
     display: inline-block;
     padding: 4px 13px;
-    border-radius: 20px;
+    border-radius: 9px;
 }
 ul.at-tag.unstyled {
     text-align: center;
