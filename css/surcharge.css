@@ -690,3 +690,57 @@ ul.at-tag.unstyled {
     color: #000;
     border: 0;
 }
+
+/***********************/
+/** Fullscreen button **/
+/***********************/
+a.fullscreenclass {
+    position: fixed;
+    bottom: 40px;
+    right: 96px;
+    z-index: 9999;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 30px;
+    background: #ffffff;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    border-radius: 50%;
+    padding-top: 6px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 2px 9px -2px;
+}
+
+a.fullscreenclass:before {
+    -webkit-mask-image: url(/theme/Prototype_git_desktop/img/fullscreen.svg);
+    content: ' ';
+    background: black;
+    width: 27px;
+    margin-top: 3px;
+    height: 27px;
+    position: absolute;
+    right: 9px;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    top: 7px;
+}
+
+a.fullscreenclass:hover:after {
+    content: ' FullScreen de la maquette ';
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 11px;
+    left: -49px;
+    top: -48px;
+    background: #393939;
+    color: #ffffff;
+    padding-top: 9px;
+    border-radius: 30px;
+}
