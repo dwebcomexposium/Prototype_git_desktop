@@ -95,43 +95,7 @@ div#zone2 {
     margin-top: -18px;
     background-color: #fff;
 }
-  .content-filter li{
-	      padding-left: 30px;
-      list-style:none;
-      padding-bottom:20px;
-  }
-  .content-filter li a {
-      text-decoration:none;
-      color:#000000;
-  }
-  .content-filter li:nth-child(2) a span{
-      background-color:#f8543a;
-      padding:3px 6px;
-      font-size:10px;
-      margin-left:10px;
-      color:#ffffff;
-  }
-  .content-filter li:nth-child(3) a span{
-      background-color:#45cee3;
-      padding:3px 6px;
-      font-size:10px;
-      margin-left:10px;
-      color:#ffffff;
-  }
-  .content-filter li:nth-child(4) a span{
-      background-color:#93e588;
-      padding:3px 6px;
-      font-size:10px;
-      margin-left:10px;
-      color:#ffffff;
-  }
-  .content-filter li:nth-child(5) a span{
-      background-color:#d7e588;
-      padding:3px 6px;
-      font-size:10px;
-      margin-left:10px;
-      color:#ffffff;
-  }
+
   .block.block-page.list-articles .main-title-with-link .block-title {
     letter-spacing:0.05em;
     color:#000000;
@@ -168,17 +132,19 @@ span.gla-item-tag {
 
 
 .content-filter li {
-    max-width: 50%;
+    max-width: 80%;
     margin: 20px 0px 20px 0px;
     padding: 7px 0px 7px 20px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+	list-style:none;
 }
 
 .content-filter li a {
-    color: #000;
     font-weight: 400;
     font-size: 15px;
+    text-decoration:none;
+    color:#000000;
 }
 .content-filter li a span {
     padding: 3px 8px;
@@ -189,15 +155,34 @@ span.gla-item-tag {
     margin-top: -7px;
 }
 
-.content-filter li:nth-child(2) span{
+  .content-filter li:nth-child(2) a span{
 	 background-color:#EBD9E2;
-}
-.content-filter li:nth-child(4)span span{
-  background-color:#EFE4C8;
-}
-.content-filter li:nth-child(3) span{
+      padding:3px 6px;
+      font-size:10px;
+      margin-left:10px;
+      color:#ffffff;
+  }
+  .content-filter li:nth-child(3) a span{
   background-color:#D3F2EA;
-}
+      padding:3px 6px;
+      font-size:10px;
+      margin-left:10px;
+      color:#ffffff;
+  }
+  .content-filter li:nth-child(4) a span{
+  background-color:#EFE4C8;
+      padding:3px 6px;
+      font-size:10px;
+      margin-left:10px;
+      color:#ffffff;
+  }
+  .content-filter li:nth-child(5) a span{
+      background-color:#d7e588;
+      padding:3px 6px;
+      font-size:10px;
+      margin-left:10px;
+      color:#ffffff;
+  }
 /*************************************/
 /***********STYLE TOPIC***************/
 /*************************************/
