@@ -833,3 +833,32 @@ img#logo {
     transform: rotate(60deg);
 } */
 
+/***************/
+/** recherche **/
+/***************/
+
+.clearable__clear {
+    display: none;
+    padding: 8px 5px;
+    font-style: normal;
+    font-size: 1.2em;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    vertical-align: middle;
+    margin: 0 auto;
+    color: #fff;
+    right: 30.8%;
+    transform: translateX(67%);
+    transform: translateY(-121%);
+    background-color: #000000;
+    height: 21px;
+    /* float: right; */
+    line-height: 6px;
+    border-radius: 10px;
+}
+.clearable input::-ms-clear {  /* Remove IE default X */
+  display: none;
+}
+
