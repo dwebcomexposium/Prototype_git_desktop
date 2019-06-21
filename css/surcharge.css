@@ -805,3 +805,16 @@ a.fullscreenclass:hover:after {
     left: -7px;
     top: -9px;
 }
+
+
+/**********/
+/** LOGO **/
+/**********/
+.container-logo {
+    margin-top: -97px;
+}
+img#logo {
+    width: 200px;
+}
+
+
