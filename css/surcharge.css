@@ -744,3 +744,24 @@ a.fullscreenclass:hover:after {
     padding-top: 9px;
     border-radius: 30px;
 }
+
+.fullscreen-maxpower{
+    z-index: 9999; 
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    max-width:100% !important;
+    max-height:100% !important;
+    transition:0.5s;
+    background:rgb(0,0,0,0.7)
+     
+ }
+ .fullscreen-maxpower iframe{
+     max-width:80% !important;
+    max-height:98% !important;
+    margin:0 auto;
+    display:block;
+    transform:translateY(1%);
+ }
