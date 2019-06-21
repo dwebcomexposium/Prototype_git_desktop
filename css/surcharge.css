@@ -814,7 +814,22 @@ a.fullscreenclass:hover:after {
     margin-top: -97px;
 }
 img#logo {
-    width: 200px;
+    width: 130px;
+    margin-left: 19px;
+    margin-bottom: 33px;
 }
 
+/* .container-logo:before {
+    content: ' ';
+    position: absolute;
+    width: 14%;
+    height: 37%;
+    display: block;
+    background-color: #EBD9E2 !important;
+    border-radius: 20px;
+    margin-top: -9%;
+    z-index: 0;
+    margin-left: -50px;
+    transform: rotate(60deg);
+} */
 
