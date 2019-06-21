@@ -85,9 +85,9 @@ div#zone2 {
     max-width:inherit;
 }
 .layout-2-col{
-    width:70%;
+    width:80%;
 }
-#zone1{display:inline-block;width: 30%;float: left;}
+#zone1{display:inline-block;width: 20%;float: left;}
   .content-filter {
     padding-top: 50px;
     min-height: 100vh;
