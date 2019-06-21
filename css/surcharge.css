@@ -690,6 +690,12 @@ ul.at-tag.unstyled {
     color: #000;
     border: 0;
 }
+.fullscreen-body .open-popin {
+    z-index: 9999;
+}
+.fullscreen-body .smart-popin {
+    z-index: 99999;
+}
 
 /***********************/
 /** Fullscreen button **/
@@ -765,3 +771,11 @@ a.fullscreenclass:hover:after {
     display:block;
     transform:translateY(1%);
  }
+
+.fullscreen-body a.fullscreenclass:before {
+    -webkit-mask-image: url(/theme/Prototype_git_desktop/img/cross.svg);
+    width: 60px;
+    height: 60px;
+    left: -7px;
+    top: -9px;
+}
