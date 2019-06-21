@@ -171,20 +171,8 @@ span.gla-item-tag {
     border-bottom-right-radius: 15px;
 }
 
-.content-filter li:nth-child(2) a {
-    color: #C7ACB8;
-    font-weight: 600;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-.content-filter li:nth-child(3) a {
-    color: #A7D0C4;
-    font-weight: 600;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-.content-filter li:nth-child(4) a {
-    color: #C2B190;
+.content-filter li a {
+    color: #000;
     font-weight: 400;
     font-size: 15px;
 }
@@ -198,25 +186,34 @@ span.gla-item-tag {
     margin-top: -7px;
 }
 
+.content-filter li:nth-child(2) span{
+	 background-color:#EBD9E2;
+}
+.content-filter li:nth-child(4)span span{
+  background-color:#EFE4C8;
+}
+.content-filter li:nth-child(3) span{
+  background-color:#D3F2EA;
+}
 /*************************************/
 /***********STYLE TOPIC***************/
 /*************************************/
 
 span.gla-item-tag.topic_prototype, span.at-theme.topic_prototype, span.at-theme.topic_innovation ul.at-tag.unstyled li,
-span.gla-item-tag.topic_prototype p.gla-item-author:before,
-.content-filter li:nth-child(2){
+span.gla-item-tag.topic_prototype p.gla-item-author:before
+{
   background-color:#EBD9E2;
 	color:#C7ACB8;
 }
 span.gla-item-tag.topic_developpement, span.at-theme.topic_developpement, span.at-theme.topic_innovation ul.at-tag.unstyled li,
-span.gla-item-tag.topic_developpement p.gla-item-author:before,
-.content-filter li:nth-child(4){
+span.gla-item-tag.topic_developpement p.gla-item-author:before
+{
   background-color:#EFE4C8;
 	color:#C2B190;
 }
 span.gla-item-tag.topic_innovation, span.at-theme.topic_innovation, span.at-theme.topic_innovation ul.at-tag.unstyled li,
-span.gla-item-tag.topic_innovation p.gla-item-author:before,
-.content-filter li:nth-child(3){
+span.gla-item-tag.topic_innovation p.gla-item-author:before
+{
   background-color:#D3F2EA;
 	color:#A7D0C4;
 }
