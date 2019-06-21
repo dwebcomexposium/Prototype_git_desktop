@@ -89,8 +89,12 @@ div#zone2 {
 }
 #zone1{display:inline-block;width: 30%;float: left;}
   .content-filter {
-      margin-top:50px;
-  }
+    padding-top: 50px;
+    min-height: 100vh;
+    margin-right: 50px;
+    margin-top: -18px;
+    background-color: #fff;
+}
   .content-filter li{
 	      padding-left: 30px;
       list-style:none;
