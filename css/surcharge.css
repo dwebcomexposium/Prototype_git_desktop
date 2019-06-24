@@ -863,7 +863,7 @@ img#logo {
 }
 
 .doflex {
-    display: flex;
+    display: flex !important;
     padding: 8px 5px;
     font-style: normal;
     font-size: 1.2em;
