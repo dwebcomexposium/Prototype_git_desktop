@@ -862,7 +862,7 @@ img#logo {
   display: none;
 }
 
-doflex {
+.doflex {
     display: flex;
     padding: 8px 5px;
     font-style: normal;
