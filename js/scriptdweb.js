@@ -149,6 +149,7 @@ $(document).ready(function() {
         .classList.remove("doflex");
       $inp.val("").trigger("input");
       $("article").show();
+      $('#filter-count').text('');
       return false;
     });
 
