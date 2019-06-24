@@ -1,5 +1,5 @@
 // JavaScript Document
-$(document).ready(function(){
+// $(document).ready(function(){
 	
 
 //if ($('#back-to-top').length) {
