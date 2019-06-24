@@ -862,3 +862,10 @@ img#logo {
   display: none;
 }
 
+.hidden {
+  display: none;
+}
+
+doflex {
+  display: flex;
+}
