@@ -50,6 +50,7 @@ $(document).ready(function() {
               .indexOf(link.toLowerCase()) >= 0
           ) {
             $(this).show();
+            $('.clearable__clear').addClass('doflex');
           } else if ($("#filter").val() === "Toutvoir" || !$("#filter").val()) {
             $("#filter").val("");
             $("article").show();
