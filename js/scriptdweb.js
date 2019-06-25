@@ -54,6 +54,7 @@ $(document).ready(function() {
           } else if ($("#filter").val() === "Toutvoir" || !$("#filter").val()) {
             $("#filter").val("");
             $("article").show();
+            $('.clearable__clear').removeClass('doflex');
           } else {
             $(this).hide();
           }
