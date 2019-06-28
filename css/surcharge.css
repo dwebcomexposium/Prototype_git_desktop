@@ -918,17 +918,3 @@ img#logo {
   }
   } 
  }
-
-/* Habillage recherche */
-
-.gsf-fields.js-toggle-target {
-    background-color: #ff7575;
-    border-radius: 20px;
-    box-shadow: 0 10px 40px #ff7c7c, 
-}
-
-.gsf-submit-btn {
-    background-color: transparent;
-    border-radius: 10px;
-    transition: 0.5s ease all;
-}
