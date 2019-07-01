@@ -7,30 +7,28 @@
  * */
 
 ;
-(function($) {
-  $.fn.smoothscrollTo = function(e) {
-    // when we click on an element
-    var target = $(this).attr('href'),
-      heightStart = $('.site-banner').outerHeight();
+// (function($) {
+  // $.fn.smoothscrollTo = function(e) {
+    // var target = $(this).attr('href'),
+      // heightStart = $('.site-banner').outerHeight();
 
-    if (target != "#" && $(target).length) {
-      var position = $(target).offset().top,
-        decalage = heightStart * 1.5,
-        destination = position - decalage,
-        speed = 750; // Animation duration in ms
+    // if (target != "#" && $(target).length) {
+      // var position = $(target).offset().top,
+        // decalage = heightStart * 1.5,
+        // destination = position - decalage,
+        // speed = 750;
+		
+      // $('html, body').animate({
+        // scrollTop: destination,
+      // }, speed);
+    // }
 
-      // we move to the destination
-      $('html, body').animate({
-        scrollTop: destination,
-      }, speed);
-    }
+    // e.preventDefault();
+  // };
 
-    // we cancel the click on this link
-    e.preventDefault();
-  };
+  // $('a[href^="#"]').off('click.scroll').on('click.scroll', function(e) {
+    // $(this).smoothscrollTo(e);
+    // $(this).blur();
+  // });
+// }(jQuery));
 
-  $('a[href^="#"]').off('click.scroll').on('click.scroll', function(e) {
-    $(this).smoothscrollTo(e);
-    $(this).blur();
-  });
-}(jQuery));
