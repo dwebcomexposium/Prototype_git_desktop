@@ -846,20 +846,20 @@ img#logo {
 /***********************/
 
 .search div#zone1 .content-filter ul {
-    display: none;
+display:none;
 }
 .search .content-filter {
-    background-color: #f5f5f5;
+background-color: #f5f5f5;
 }
 .search .layout-2-col {
-    margin: 0 auto;
+margin:0 auto;
 }
 
-.body-corpo.search form#live-search {
-display: none;
+.body-corpo.search form#live-search {
+display:none;
 }
-.search .gsf-fields.js-toggle-target {
-background: none;
+.search .gsf-fields.js-toggle-target {
+background:transparent!important;
 }
 
 .search .container-logo{
@@ -874,20 +874,20 @@ Width:96%;
 }
 
 .search .gsf-submit-btn{
-min-height: 43px;
+min-height: 43px;
 width:8.5em;
 Border-radius:4px;
 -webkit-box-shadow: 0px 15px 25px -17px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 15px 25px -17px rgba(0,0,0,0.75);
 box-shadow: 0px 15px 25px -17px rgba(0,0,0,0.75);
-background: #25AFFF !important;
-font-size: 15px;
+background:#25AFFF!important;
+font-size:15px;
 Font-weight:500;
 }
 
 .search input[type="search"]::placeholder {
-color: #ababab !important;
-padding-left: 2em;
+color:#ababab!important;
+padding-left:2em;
 }
 
 /***************/
