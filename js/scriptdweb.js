@@ -36,6 +36,8 @@ $(document).ready(function() {
       .replace(/\d+/g, "")
       .replace(/\s/g, "");
     $("#filter").val(link);
+    let counter = $(this).children()[0].textContent;
+    $('#filter-count').text(counter + " résultats trouvés");
     $(".grid-la-list")
       .show()
       .filter(function() {
