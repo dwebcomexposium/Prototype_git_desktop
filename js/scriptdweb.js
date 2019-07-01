@@ -74,11 +74,6 @@ $(document).ready(function() {
     // Retrieve the input field text and reset the count to zero
     var filter = $(this).val(),
       count = 0;
-    // On cache la croix quand c'est vide
-    if ($(this).val().length == 0) {
-      // Hide the element
-      $('.clearable__clear').removeClass('doflex');
-    } 
 
     // Loop through the comment list
     $(".grid-la-list article").each(function() {
@@ -100,6 +95,13 @@ $(document).ready(function() {
     // Update the count
     var numberItems = count;
     $("#filter-count").text(count + " résultats trouvés");
+    
+    // Check if searchbar is empty
+    if ($(this).val().length == 0) {
+        // Hide the element
+        $('.clearable__clear').removeClass('doflex');
+        $('#filter-count').text('');
+    }
   });
 
   if ($("#back-to-top").length) {
