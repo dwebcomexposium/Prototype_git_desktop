@@ -854,6 +854,13 @@ display: none;
 background: none;
 }
 
+.search .container-logo{
+position:absolute;
+}
+.search .zone1{
+width:0;
+}
+
 .search .form-txt{
 Width:96%;
 }
