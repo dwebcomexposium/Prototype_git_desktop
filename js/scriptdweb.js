@@ -133,10 +133,12 @@ $(document).ready(function() {
   var numTagsProto = $("span.topic_prototype").length;
   var numTagsDev = $("span.topic_developpement").length;
   var numTagsInno = $("span.topic_innovation").length;
+  var numTagsAll = numTagsProto + numTagsInno + numTagsDev;
 
   $("#Prototype-list-filter").html(numTagsProto.toString());
   $("#developpement-list-filter").html(numTagsDev.toString());
   $("#Innovation-list-filter").html(numTagsInno.toString());
+  $("#show-all-list-filter").html(numTagsAll.toString());
 
   $("#fullscreenid").click(function(e) {
     $("#id_container_iframe").toggleClass("fullscreen-maxpower");
