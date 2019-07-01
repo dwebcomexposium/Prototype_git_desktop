@@ -57,6 +57,7 @@ $(document).ready(function() {
             $("#filter").val("");
             $("article").show();
             $('.clearable__clear').removeClass('doflex');
+            $('#filter-count').text('');
           } else {
             $(this).hide();
           }
