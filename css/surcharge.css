@@ -833,6 +833,37 @@ img#logo {
     transform: rotate(60deg);
 } */
 
+/***********************/
+/** Recherche globale **/
+/***********************/
+.body-corpo.search form#live-search {
+display: none;
+}
+.search .gsf-fields.js-toggle-target {
+background: none;
+}
+
+.search .form-txt{
+Width:96%;
+}
+
+.search .gsf-submit-btn{
+min-height: 43px;
+width:8.5em;
+Border-radius:4px;
+-webkit-box-shadow: 0px 15px 25px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 15px 25px -17px rgba(0,0,0,0.75);
+box-shadow: 0px 15px 25px -17px rgba(0,0,0,0.75);
+background: #25AFFF !important;
+font-size: 15px;
+Font-weight:500;
+}
+
+.search input[type="search"]::placeholder {
+color: #ababab !important;
+padding-left: 2em;
+}
+
 /***************/
 /** recherche **/
 /***************/
