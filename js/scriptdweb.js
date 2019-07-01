@@ -78,7 +78,6 @@ $(document).ready(function() {
     if ($(this).val().length == 0) {
       // Hide the element
       $('.clearable__clear').removeClass('doflex');
-      $('#filter-count').text('');
     } 
 
     // Loop through the comment list
