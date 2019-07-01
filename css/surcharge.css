@@ -836,6 +836,17 @@ img#logo {
 /***********************/
 /** Recherche globale **/
 /***********************/
+
+.search div#zone1 .content-filter ul {
+    display: none;
+}
+.search .content-filter {
+    background-color: #f5f5f5;
+}
+.search .layout-2-col {
+    margin: 0 auto;
+}
+
 .body-corpo.search form#live-search {
 display: none;
 }
