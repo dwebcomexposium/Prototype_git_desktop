@@ -154,6 +154,14 @@ span.gla-item-tag {
     color: #000000 !important;
     margin-top: -7px;
 }
+.content-filter li:first-child a span {
+    background-color:transparent;
+    border-radius:1px solid #717171;
+    padding: 3px 6px;
+    font-size: 10px;
+    margin-left: 10px;
+    color: #000000;
+}
 
   .content-filter li:nth-child(2) a span{
 	 background-color:#EBD9E2;
