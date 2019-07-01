@@ -160,11 +160,10 @@ span.gla-item-tag {
 }
 .content-filter li:first-child a span {
 	background-color:transparent;
-	border-radius:1px solid #717171;
+	background-color: #eae9e9;
 	padding: 3px 6px;
 	font-size: 10px;
 	margin-left: 10px;
-	color: #000000;
 }
 
   .content-filter li:nth-child(2) a span{
@@ -172,28 +171,27 @@ span.gla-item-tag {
       padding:3px 6px;
       font-size:10px;
       margin-left:10px;
-      color:#ffffff;
   }
   .content-filter li:nth-child(3) a span{
   background-color:#EFE4C8;
       padding:3px 6px;
       font-size:10px;
       margin-left:10px;
-      color:#ffffff;
+
   }
   .content-filter li:nth-child(4) a span{
   background-color:#D3F2EA;
       padding:3px 6px;
       font-size:10px;
       margin-left:10px;
-      color:#ffffff;
+
   }
   .content-filter li:nth-child(5) a span{
       background-color:#d7e588;
       padding:3px 6px;
       font-size:10px;
       margin-left:10px;
-      color:#ffffff;
+
   }
 /*************************************/
 /***********STYLE TOPIC***************/
