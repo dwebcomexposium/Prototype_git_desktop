@@ -74,6 +74,12 @@ $(document).ready(function() {
     // Retrieve the input field text and reset the count to zero
     var filter = $(this).val(),
       count = 0;
+    // On cache la croix quand c'est vide
+    if ($(this).val().length == 0) {
+      // Hide the element
+      $('.clearable__clear').removeClass('doflex');
+      $('#filter-count').text('');
+    } 
 
     // Loop through the comment list
     $(".grid-la-list article").each(function() {
@@ -84,7 +90,7 @@ $(document).ready(function() {
           .search(new RegExp(filter, "i")) < 0
       ) {
         $(this).fadeOut();
-
+        
         // Show the list item if the phrase matches and increase the count by 1
       } else {
         $(this).show();
