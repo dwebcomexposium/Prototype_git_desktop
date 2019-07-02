@@ -919,6 +919,9 @@ padding-left:2em;
     color: #000;
     font-size: 23px;
 }
+.search header button.gsf-submit-btn {
+    width: auto;
+}
 /***************/
 /** recherche **/
 /***************/
