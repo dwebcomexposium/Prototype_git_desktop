@@ -945,7 +945,10 @@ padding-left:2em;
     line-height: 6px;
     border-radius: 10px;
 }
-
+.comment_section_container {
+    max-width: 80%;
+    margin: 0 auto;
+}
 /* Add animation frames to articles */
  article {
      -webkit-animation-name: fadeInUp;
