@@ -949,6 +949,21 @@ padding-left:2em;
     max-width: 80%;
     margin: 0 auto;
 }
+
+/********************/
+/* Recherche header */
+/********************/
+
+header .gsf-fields.js-toggle-target {
+    background: #fff;
+}
+header button.gsf-submit-btn {
+    background: #25AFFF !important;
+    border-radius: 7px !important;
+    font-size: 14px;
+}
+
+
 /* Add animation frames to articles */
  article {
      -webkit-animation-name: fadeInUp;
