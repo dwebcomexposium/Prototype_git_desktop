@@ -953,6 +953,8 @@ padding-left:2em;
 .comment_section_container {
     max-width: 80%;
     margin: 0 auto;
+	padding:4%;
+	background:#FFFFFF;
 }
 .comment_section_container h2 span {
     color: #25AFFF;
