@@ -900,6 +900,25 @@ color:#ababab!important;
 padding-left:2em;
 }
 
+.search mark.sr-term {
+    color: #25AFFF;
+}
+.search h1.sr-main-title {
+    color: #000;
+}
+
+.search h2.sr-group-title {
+    background: #ffffff;
+    padding-left: 1em;
+    padding-top: 7px;
+    -webkit-box-shadow: 0px 15px 25px -25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 15px 25px -25px rgba(0,0,0,0.75);
+    box-shadow: 0px 15px 25px -25px rgba(0,0,0,0.75);
+    border: 0;
+    margin: 30px 0 40px 0;
+    color: #000;
+    font-size: 23px;
+}
 /***************/
 /** recherche **/
 /***************/
