@@ -829,6 +829,11 @@ img#logo {
     margin-bottom: 33px;
 }
 
+.container-logo-inpage {
+    display: inline-block;
+    margin-top: -3em;
+    position: absolute;
+}
 /* .container-logo:before {
     content: ' ';
     position: absolute;
