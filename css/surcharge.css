@@ -945,11 +945,25 @@ padding-left:2em;
     line-height: 6px;
     border-radius: 10px;
 }
+
+/********************/
+/** COMMENT SECTION**/
+/********************/
+
 .comment_section_container {
     max-width: 80%;
     margin: 0 auto;
 }
-
+.comment_section_container h2 span {
+    color: #25AFFF;
+}
+.comment_section_container h2 {
+    text-align: center;
+    border: 0;
+    color: #000;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
 /********************/
 /* Recherche header */
 /********************/
