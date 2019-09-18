@@ -99,7 +99,11 @@ float:left;
     margin-top: -18px;
     background-color: #fff;
 }
-
+.article-content figure{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
   .block.block-page.list-articles .main-title-with-link .block-title {
     letter-spacing:0.05em;
     color:#000000;
